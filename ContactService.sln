@@ -12,6 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.ci.build.yml = docker-compose.ci.build.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testjson", "testjson", "{12144B87-9BD8-4A94-93AD-558BE4F3787E}"
+	ProjectSection(SolutionItems) = preProject
+		examples.json = examples.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,5 +45,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{78315019-B028-4829-9F26-D07DF8570143} = {AEF99FE4-A2D7-406C-97C8-0B475E739C7B}
+		{12144B87-9BD8-4A94-93AD-558BE4F3787E} = {AEF99FE4-A2D7-406C-97C8-0B475E739C7B}
 	EndGlobalSection
 EndGlobal
